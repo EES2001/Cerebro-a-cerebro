@@ -1,24 +1,17 @@
 {
-  "name": "web-neurociencias",
+  "name": "client",
   "version": "1.0.0",
-  "description": "Proyecto experiemento de neurociencias cerebro a cerebro",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
-  "repository": {
-    "type": "git",
-    "url": "Cerebro a cerebro"
-  },
-  "author": "EES",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5",
+    "vue": "^3.2.37",
     "socket.io-client": "^4.7.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "vite": "^4.2.1",
+    "@vitejs/plugin-vue": "^4.0.0"
   }
 }
+

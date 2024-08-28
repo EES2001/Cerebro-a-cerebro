@@ -1,0 +1,8 @@
+{
+    "javascript.validate.enable": false, // Desactiva la validación de JavaScript integrada en VS Code
+    "typescript.validate.enable": false, // Desactiva la validación de TypeScript integrada en VS Code
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "onWindowChange",
+    "editor.formatOnSave": true
+}
